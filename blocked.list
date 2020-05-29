@@ -2,3 +2,4 @@ DOMAIN,wxsnsdythumb.wxs.qq.com
 DOMAIN,wxsnsdy.wxs.qq.com
 URL-REGEX,^https?:\/\/mp\.weixin\.qq\.com\/mp\/(ad_|advertisement|getappmsgad)
 DOMAIN-KEYWORD,doubleclick
+DOMAIN-KEYWORD,ocsp
