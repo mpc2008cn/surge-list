@@ -4,3 +4,4 @@ URL-REGEX,^https?:\/\/mp\.weixin\.qq\.com\/mp\/(ad_|advertisement|getappmsgad|re
 DOMAIN-KEYWORD,ads.
 DOMAIN-KEYWORD,adservice
 DOMAIN-KEYWORD,applovin
+DOMAIN-KEYWORD,applvn
