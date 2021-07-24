@@ -5,3 +5,9 @@ URL-REGEX,^https?:\/\/mp\.weixin\.qq\.com\/mp\/(ad_|advertisement|getappmsgad|wa
 DOMAIN-KEYWORD,adservice
 DOMAIN-KEYWORD,applovin
 DOMAIN-KEYWORD,applvn
+DOMAIN-KEYWORD,exosrv
+DOMAIN-SUFFIX,poweredby.jads.co
+DOMAIN-SUFFIX,doubleclick.net
+URL-REGEX,https://18comic.org/templates/frontend/airav/js/jquery.avs-0.4.js
+URL-REGEX,https://18comic.org/templates/frontend/airav/js/td_js/td_ga_tracker.js
+URL-REGEX,https://18comic.org/static/resources/images/*
