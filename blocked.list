@@ -11,5 +11,4 @@ DOMAIN-SUFFIX,poweredby.jads.co
 DOMAIN-SUFFIX,doubleclick.net
 URL-REGEX,https://18comic.vip/templates/frontend/airav/js/jquery.avs-0.4.js
 URL-REGEX,https://18comic.vip/templates/frontend/airav/js/td_js/td_ga_tracker.js
-URL-REGEX,https://18comic.vip/static/resources/images/*
-URL-REGEX,https://18comic.vip/static/resources/files/*
+URL-REGEX,https://18comic.vip/static/resources/*
