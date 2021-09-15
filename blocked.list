@@ -1,7 +1,6 @@
 DOMAIN,wxsnsdythumb.wxs.qq.com
 DOMAIN,wxsnsdy.wxs.qq.com
 DOMAIN-SUFFIX,badjs.weixinbridge.com
-URL-REGEX,^https?:\/\/mp\.weixin\.qq\.com\/mp\/(ad_|advertisement|getappmsgad|wapcommreport|jsreport|jsmonitor)
 DOMAIN-KEYWORD,adservice
 DOMAIN-KEYWORD,applovin
 DOMAIN-KEYWORD,applvn
