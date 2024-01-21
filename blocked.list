@@ -3,9 +3,15 @@ DOMAIN-SUFFIX,safebrowsing.urlsec.qq.com
 DOMAIN-SUFFIX,app-measurement.com
 DOMAIN-SUFFIX,googleadservices.com
 DOMAIN-SUFFIX,unityads.unity3d.com
+DOMAIN-SUFFIX,mediation.unity3d.com
 DOMAIN-SUFFIX,maplehaze.cn
 DOMAIN-SUFFIX,tianmu.mobi
 DOMAIN-SUFFIX,admobile.top
+DOMAIN-SUFFIX,crwdcntrl.net
+DOMAIN-SUFFIX,applvn.com
+DOMAIN-SUFFIX,applovin.com
+DOMAIN-SUFFIX,supersonicads.com
+DOMAIN-SUFFIX,tapjoy.com
 DOMAIN-KEYWORD,umeng
 DOMAIN-KEYWORD,douyin
 DOMAIN-KEYWORD,toutiao
