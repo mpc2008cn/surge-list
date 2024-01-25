@@ -1,4 +1,9 @@
 DOMAIN-KEYWORD,doubleclick
+DOMAIN-KEYWORD,umeng
+DOMAIN-KEYWORD,douyin
+DOMAIN-KEYWORD,toutiao
+DOMAIN-KEYWORD,kuaishou
+DOMAIN-KEYWORD,baidu
 DOMAIN-SUFFIX,safebrowsing.urlsec.qq.com
 DOMAIN-SUFFIX,app-measurement.com
 DOMAIN-SUFFIX,googleadservices.com
@@ -12,11 +17,4 @@ DOMAIN-SUFFIX,applvn.com
 DOMAIN-SUFFIX,applovin.com
 DOMAIN-SUFFIX,supersonicads.com
 DOMAIN-SUFFIX,tapjoy.com
-DOMAIN-KEYWORD,umeng
-DOMAIN-KEYWORD,douyin
-DOMAIN-KEYWORD,toutiao
-DOMAIN-KEYWORD,kuaishou
-DOMAIN-KEYWORD,baidu
-
-
-
+DOMAIN-SUFFIX,zijieapi.com
