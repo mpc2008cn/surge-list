@@ -1,4 +1,5 @@
 DOMAIN-KEYWORD,doubleclick
+DOMAIN-KEYWORD,cnzz
 DOMAIN-KEYWORD,umeng
 DOMAIN-KEYWORD,douyin
 DOMAIN-KEYWORD,tiktok
@@ -19,3 +20,7 @@ DOMAIN-SUFFIX,applovin.com
 DOMAIN-SUFFIX,supersonicads.com
 DOMAIN-SUFFIX,tapjoy.com
 DOMAIN-SUFFIX,zijieapi.com
+DOMAIN-SUFFIX,sdk.e.qq.com
+DOMAIN-SUFFIX,pgdt.ugdtimg.com
+DOMAIN-SUFFIX,jpush.cn
+DOMAIN-SUFFIX,gdt.qq.com
