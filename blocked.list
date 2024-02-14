@@ -6,6 +6,7 @@ DOMAIN-KEYWORD,tiktok
 DOMAIN-KEYWORD,toutiao
 DOMAIN-KEYWORD,kuaishou
 DOMAIN-KEYWORD,baidu
+DOMAIN-KEYWORD,jpush
 DOMAIN-SUFFIX,safebrowsing.urlsec.qq.com
 DOMAIN-SUFFIX,app-measurement.com
 DOMAIN-SUFFIX,googleadservices.com
@@ -22,5 +23,4 @@ DOMAIN-SUFFIX,tapjoy.com
 DOMAIN-SUFFIX,zijieapi.com
 DOMAIN-SUFFIX,sdk.e.qq.com
 DOMAIN-SUFFIX,pgdt.ugdtimg.com
-DOMAIN-SUFFIX,jpush.cn
 DOMAIN-SUFFIX,gdt.qq.com
