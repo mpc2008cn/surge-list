@@ -1,5 +1,5 @@
 #!name=remove ads
-#!desc=知乎重定向,jump/duolingo去广告
+#!desc=知乎重定向,jump/duolingo去广告,sspai添加referer
 
 [Rule]
 URL-REGEX,^https:\/\/ios-api-2\.duolingo\.cn\/2021-05-05\/plus-promotions\/,REJECT
