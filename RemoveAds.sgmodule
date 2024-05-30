@@ -7,8 +7,8 @@ URL-REGEX,^https:\/\/switch\.jumpvg\.com\/jump\/ad\/,REJECT
 
 
 [Header Rewrite]
-^https?://www.zhihu.com header-replace User-Agent "osee2unifiedRelease/18716 osee2unifiedReleaseVersion/10.7.0 Mozilla/5.0 (iPhone; CPU iPhone OS 17_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148"
+^https?://(www|zhuanlan).zhihu.com header-replace User-Agent "osee2unifiedRelease/18716 osee2unifiedReleaseVersion/10.7.0 Mozilla/5.0 (iPhone; CPU iPhone OS 17_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148"
 ^https://cdnfile.sspai.com header-add Referer https://sspai.com
 
 [MITM]
-hostname = %APPEND% ios-api-2.duolingo.cn, switch.jumpvg.com, www.zhihu.com, cdnfile.sspai.com
+hostname = %APPEND% ios-api-2.duolingo.cn, switch.jumpvg.com, www.zhihu.com, zhuanlan.zhihu.com, cdnfile.sspai.com
