@@ -37,3 +37,5 @@ DOMAIN-SUFFIX,tklivechat.com
 DOMAIN-SUFFIX,unityads.unity3d.com
 DOMAIN-SUFFIX,zijieapi.com
 DOMAIN-SUFFIX,myavlive.com
+DOMAIN-WILDCARD,at*.doubanio.com
+DOMAIN-SUFFIX,erebor.douban.com
