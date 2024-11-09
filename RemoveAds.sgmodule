@@ -1,15 +1,13 @@
 #!name=remove ads
-#!desc=知乎重定向,jump/duolingo去广告
+#!desc=知乎重定向,duolingo去广告
 
 [Rule]
 URL-REGEX,^https:\/\/ios-api-2\.duolingo\.cn\/2021-05-05\/plus-promotions\/,REJECT
 URL-REGEX,^https:\/\/ios-api-2\.duolingo\.cn\/2023-05-23\/users\/99083604\/sdui-shop,REJECT
 URL-REGEX,^https:\/\/ios-api-2\.duolingo\.cn\/2023-05-23\/users\/99083604\/subscription-catalog,REJECT
-URL-REGEX,^https:\/\/switch\.jumpvg\.com\/jump\/ad\/,REJECT
-
 
 [Header Rewrite]
 ^https?://(www|zhuanlan).zhihu.com header-replace User-Agent "osee2unifiedRelease/18716 osee2unifiedReleaseVersion/10.7.0 Mozilla/5.0 (iPhone; CPU iPhone OS 17_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148"
 
 [MITM]
-hostname = %APPEND% ios-api-2.duolingo.cn, switch.jumpvg.com, www.zhihu.com, zhuanlan.zhihu.com
+hostname = %APPEND% ios-api-2.duolingo.cn, www.zhihu.com, zhuanlan.zhihu.com
