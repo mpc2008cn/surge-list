@@ -33,7 +33,7 @@ DOMAIN-SUFFIX,tklivechat.com
 DOMAIN-SUFFIX,unityads.unity3d.com
 DOMAIN-SUFFIX,myavlive.com
 DOMAIN-WILDCARD,at*.doubanio.com
-DOMAIN-WILDCARD,pangolin-sdk-toutiao*.com
+DOMAIN-WILDCARD,*.pangolin-sdk-toutiao*.com
 DOMAIN-SUFFIX,pglstatp-toutiao.com
 DOMAIN-SUFFIX,erebor.douban.com
 DOMAIN-SUFFIX,gdt.qq.com
