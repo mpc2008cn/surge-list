@@ -1,6 +1,11 @@
 #!name=meituan fix
 #!desc=美团开启vpn后某些场景图片加载慢
 
+[Host]
+metrics-picture.d.meituan.net = metrics-picture.dreport.meituan.net
+maplocatesdksnapshot.d.meituan.net = maplocatesdksnapshot.dreport.meituan.net
+route-stats.d.meituan.net = route-stats.dreport.meituan.net
+
 [Header Rewrite]
 ^https://metrics-picture\.d\.meituan\.net https://metrics-picture.dreport.meituan.net 302
 ^https://maplocatesdksnapshot\.d\.meituan\.net https://maplocatesdksnapshot.dreport.meituan.net 302
