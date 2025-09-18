@@ -1,8 +1,18 @@
 #!name=remove ads
-#!desc=jump去广告
+#!desc=jump去广告,修改自https://raw.githubusercontent.com/MoonYuki/Surge/e6dac61aa1e19dd6536d1f141917ea2eb9c6825d/Sgmodule/ADRemove/jumpad.sgmodule
 
 [Rule]
-URL-REGEX,^https:\/\/switch\.jumpvg\.com\/jump\/ad\/,REJECT
+DOMAIN,zlsdk.1rtb.net,REJECT
+DOMAIN,jp.ad.gameley.com,REJECT
+DOMAIN,toblog.ctobsnssdk.com,REJECT
+DOMAIN,s3plus.meituan.net,REJECT
+DOMAIN,images.pinduoduo.com,REJECT
+DOMAIN,qh-material.taobao.com,REJECT
+DOMAIN-SUFFIX,admobile.top,REJECT
+
+URL-REGEX,^https?:\/\/switch\.jumpvg\.com\/jump\/getlaunchad\/v2$,REJECT
+URL-REGEX,^https?:\/\/switch\.jumpvg\.com\/jump\/recommend\/ad_conf$,REJECT
+URL-REGEX,^https?:\/\/switch\.jumpvg\.com\/jump\/ad\/,REJECT
 
 [MITM]
 hostname = %APPEND% switch.jumpvg.com
