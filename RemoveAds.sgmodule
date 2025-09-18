@@ -10,9 +10,11 @@ DOMAIN,images.pinduoduo.com,REJECT
 DOMAIN,qh-material.taobao.com,REJECT
 DOMAIN-SUFFIX,admobile.top,REJECT
 
-URL-REGEX,^https?:\/\/switch\.jumpvg\.com\/jump\/getlaunchad\/v2$,REJECT
-URL-REGEX,^https?:\/\/switch\.jumpvg\.com\/jump\/recommend\/ad_conf$,REJECT
 URL-REGEX,^https?:\/\/switch\.jumpvg\.com\/jump\/ad\/,REJECT
+
+[Script]
+http-response ^https?:\/\/switch\.jumpvg\.com\/jump\/getlaunchad\/v2$ requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/mpc2008cn/surge-list/refs/heads/master/ad_remove.js
+http-response ^https?:\/\/switch\.jumpvg\.com\/jump\/recommend\/ad_conf$ requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/mpc2008cn/surge-list/refs/heads/master/ad_remove.js
 
 [MITM]
 hostname = %APPEND% switch.jumpvg.com
