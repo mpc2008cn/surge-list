@@ -15,7 +15,7 @@ URL-REGEX,^https?:\/\/switch\.jumpvg\.com\/jump\/getlaunchad\/v2$,REJECT
 URL-REGEX,^https?:\/\/switch\.jumpvg\.com\/jump\/recommend\/ad_conf$,REJECT
 
 [Header Rewrite]
-^https?:\/\/thumbsnap\.com\/i\/.*\.mp4$ header-rewrite Referer https://mdnplay.dev/
+http-request ^https?:\/\/thumbsnap\.com\/i\/.*\.mp4$ header-replace Referer https://mdnplay.dev/
 
 [MITM]
 hostname = %APPEND% switch.jumpvg.com, thumbsnap.com
