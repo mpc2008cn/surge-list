@@ -15,7 +15,7 @@ URL-REGEX,^https?:\/\/switch\.jumpvg\.com\/jump\/getlaunchad\/v2$,REJECT
 URL-REGEX,^https?:\/\/switch\.jumpvg\.com\/jump\/recommend\/ad_conf$,REJECT
 
 [URL Rewrite]
-^https?:\/\/thumbsnap\.com\/([^\/]+\.mp4)$ https://thumbsnap.com/i/$1 302
+^https?:\/\/thumbsnap\.com\/(?!i\/)([^\/]+\.mp4)$ https://thumbsnap.com/i/$1 302
 
 [Header Rewrite]
 http-request ^https?:\/\/thumbsnap\.com\/i\/.*\.mp4$ header-replace Referer https://mdnplay.dev/
