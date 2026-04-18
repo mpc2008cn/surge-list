@@ -1,0 +1,16 @@
+PROCESS-NAME,Diablo IV.exe
+PROCESS-NAME,Battle.net.exe
+PROCESS-NAME,DiabloImmortal.exe
+DOMAIN-SUFFIX,battle.net
+DOMAIN-SUFFIX,battlenet.com
+DOMAIN-SUFFIX,blizzard.com
+DOMAIN-SUFFIX,blzstatic.cn
+DOMAIN-SUFFIX,blizzardauth.com
+DOMAIN-KEYWORD,diablo
+
+PROCESS-NAME,steam.exe
+PROCESS-NAME,steamwebhelper.exe
+PROCESS-NAME,steamservice.exe
+DOMAIN-SUFFIX,steampowered.com
+DOMAIN-SUFFIX,steamcontent.com
+DOMAIN-SUFFIX,steamstatic.com
