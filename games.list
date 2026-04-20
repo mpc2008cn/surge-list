@@ -1,10 +1,8 @@
 PROCESS-NAME,Diablo IV.exe
 PROCESS-NAME,Battle.net.exe
-PROCESS-NAME,DiabloImmortal.exe
 DOMAIN-SUFFIX,battle.net
 DOMAIN-SUFFIX,battlenet.com
 DOMAIN-SUFFIX,blizzard.com
-DOMAIN-SUFFIX,blzstatic.cn
 DOMAIN-SUFFIX,blizzardauth.com
 DOMAIN-KEYWORD,diablo
 
