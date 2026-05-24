@@ -43,6 +43,10 @@ DOMAIN-SUFFIX,gamer.com.tw
 DOMAIN-SUFFIX,bahamut.com.tw
 DOMAIN-SUFFIX,cloudflare.com
 
+DOMAIN-SUFFIX,nintendo.net
+DOMAIN-SUFFIX,nintendo.com
+DOMAIN-SUFFIX,nintendo.co.jp
+
 DOMAIN-SUFFIX,githubusercontent.com
 DOMAIN-SUFFIX,telegram.org
 DOMAIN-SUFFIX,greasyfork.org
