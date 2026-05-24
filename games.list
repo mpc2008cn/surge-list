@@ -1,10 +1,9 @@
-PROCESS-NAME,Diablo IV.exe
+PROCESS-NAME,Agent.exe,Proxy
 PROCESS-NAME,Battle.net.exe
 DOMAIN-SUFFIX,battle.net
 DOMAIN-SUFFIX,battlenet.com
 DOMAIN-SUFFIX,blizzard.com
 DOMAIN-SUFFIX,blizzardauth.com
-DOMAIN-KEYWORD,diablo
 
 PROCESS-NAME,steam.exe
 PROCESS-NAME,steamwebhelper.exe
