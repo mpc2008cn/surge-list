@@ -14,7 +14,7 @@ DOMAIN-SUFFIX,wxs.qq.com
 DOMAIN,wxsmsdy.video.qq.com
 DOMAIN,ads-shopping.shouqianba.com
 DOMAIN,ad.maoyan.com
-DOMAIN,e.jparking.cn,REJECT
+DOMAIN,e.jparking.cn
 
 DOMAIN,route-stats.d.meituan.net
 DOMAIN,maplocatesdksnapshot.d.meituan.net
