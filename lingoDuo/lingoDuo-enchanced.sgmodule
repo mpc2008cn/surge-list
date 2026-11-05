@@ -7,7 +7,7 @@
 #!icon=https://github.com/TAKAGIVEGETA/MyScripts/blob/main/lingoDuo/lingoDuo.png?raw=true
 
 [Script]
-duolingo_max = type=http-response,pattern=^https?:\/\/(ios-api-[a-z0-9-]+|api\d+)\.duolingo\.c(n|om)\/2023-05-23\/(batch|users\/[^\/?#]+)(?:[?#]|$),script-path=https://raw.githubusercontent.com/mpc2008cn/surge-list/master/lingoDuo-xaM-enhanced.js,argument=xp_boost={{{xp_boost}}}&multiplier={{{multiplier}}}&unlock_all={{{unlock_all}}},requires-body=1,max-size=31457280,timeout=120
+duolingo_max = type=http-response,pattern=^https?:\/\/(ios-api-[a-z0-9-]+|api\d+)\.duolingo\.c(n|om)\/2023-05-23\/(batch|users\/[^\/?#]+)(?:[?#]|$),script-path=https://raw.githubusercontent.com/mpc2008cn/surge-list/master/lingoDuo/lingoDuo-xaM-enhanced.js,argument=xp_boost={{{xp_boost}}}&multiplier={{{multiplier}}}&unlock_all={{{unlock_all}}},requires-body=1,max-size=31457280,timeout=120
 
 [MITM]
 hostname = ios-api-*.duolingo.com, ios-api-*.duolingo.cn, api*.duolingo.com, api*.duolingo.cn
