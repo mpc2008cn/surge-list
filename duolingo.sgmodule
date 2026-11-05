@@ -1,12 +1,11 @@
-#!name=Duolingo Max 解锁
-#!desc=Duolingo iOS 解锁 Max 会员
+#!name=Duolingo Max 解锁 自定义限时挑战时长
+#!desc=Duolingo iOS 解锁 自定义限时挑战时长
 #!arguments=timer_mins:60
 #!author=Takagivegeta
 #!homepage=https://github.com/TAKAGIVEGETA/MyScripts/tree/main/lingoDuo
 #!icon=https://github.com/TAKAGIVEGETA/MyScripts/blob/main/lingoDuo/lingoDuo.png?raw=true
 
 [Script]
-Duolingo-Max = type=http-response,pattern=^https?:\/\/(ios-api-[a-z0-9-]+|api\d+)\.duolingo\.c(n|om)\/2023-05-23\/(batch|users\/[^\/?#]+)(?:[?#]|$),script-path=https://raw.githubusercontent.com/TAKAGIVEGETA/MyScripts/main/lingoDuo/lingoDuo-xaM-enhanced.js,requires-body=true,max-size=16777216,timeout=120,engine=webview
 Duolingo-Timer = type=http-response,pattern=^https:\/\/(?:ios-api-[a-z0-9-]+|api\d+)\.duolingo\.c(?:n|om)\/.*\/live-ops-challenges,script-path=https://raw.githubusercontent.com/mpc2008cn/surge-list/refs/heads/master/lingoDuo-time-modifier.js,requires-body=true,timeout=120,argument={{{timer_mins}}}
 
 [MITM]
