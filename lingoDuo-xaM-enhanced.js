@@ -1,10 +1,18 @@
+
 try {
     const obj = JSON.parse($response.body);
     const now = Math.floor(Date.now() / 1000);
+
     const rawArgs = typeof $argument !== 'undefined' ? $argument : '';
-    const args = typeof rawArgs === 'string'
+    const params = typeof rawArgs === 'string'
         ? Object.fromEntries(new URLSearchParams(rawArgs))
         : (rawArgs || {});
+
+    const args = {
+        xp_boost: params.xp_boost === true || params.xp_boost === '1' || params.xp_boost === 'true',
+        multiplier: Math.max(1, parseInt(params.multiplier, 10) || 3),
+        unlock_all: params.unlock_all === true || params.unlock_all === '1' || params.unlock_all === 'true'
+    };
 
     const applyGold = (userdata) => {
         if (!userdata.shopItems) userdata.shopItems = [];
@@ -37,7 +45,7 @@ try {
 
     const applyXpBoost = (userdata) => {
         if (!args.xp_boost) return;
-        const xpMultiplier = parseInt(args.multiplier);
+        const xpMultiplier = args.multiplier;
         if (!userdata.shopItems) userdata.shopItems = [];
         let foundXpBoost = false;
         for (let i = 0; i < userdata.shopItems.length; i++) {
