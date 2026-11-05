@@ -1,6 +1,6 @@
 #!name=Duolingo 解锁 自定义限时挑战时长
 #!desc=Duolingo 解锁 自定义限时挑战时长
-#!arguments=timer_mins:60
+#!arguments=timer_mins:10
 #!author=Takagivegeta
 #!homepage=https://github.com/TAKAGIVEGETA/MyScripts/tree/main/lingoDuo
 #!icon=https://github.com/TAKAGIVEGETA/MyScripts/blob/main/lingoDuo/lingoDuo.png?raw=true
