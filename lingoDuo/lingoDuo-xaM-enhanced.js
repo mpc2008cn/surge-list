@@ -1,3 +1,4 @@
+// 修改自 https://raw.githubusercontent.com/TAKAGIVEGETA/MyScripts/main/lingoDuo/lingoDuo-xaM-enhanced.js
 
 try {
     const obj = JSON.parse($response.body);
