@@ -1,5 +1,5 @@
-#!name=Duolingo Max 解锁 自定义限时挑战时长
-#!desc=Duolingo iOS 解锁 自定义限时挑战时长
+#!name=Duolingo 解锁 自定义限时挑战时长
+#!desc=Duolingo 解锁 自定义限时挑战时长
 #!arguments=timer_mins:60
 #!author=Takagivegeta
 #!homepage=https://github.com/TAKAGIVEGETA/MyScripts/tree/main/lingoDuo
