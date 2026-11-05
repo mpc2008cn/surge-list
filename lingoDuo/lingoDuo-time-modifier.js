@@ -1,3 +1,5 @@
+// 修改自 https://raw.githubusercontent.com/TAKAGIVEGETA/MyScripts/main/lingoDuo/lingoDuo-time-modifier.js
+
 try {
     let obj = JSON.parse($response.body);
 	let minutes = parseInt($argument, 10);
