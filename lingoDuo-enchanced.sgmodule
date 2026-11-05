@@ -1,6 +1,6 @@
 #!name=Duolingo Max 解锁 增强版
 #!desc=Duolingo iOS 版解锁 Max 会员，实现无限体力、去除广告、解锁视频通话等，支持经验加倍和自定义限时挑战时长
-#!arguments=xp_boost:0,multiplier:3,unlock_all:0
+#!arguments=xp_boost:0,multiplier:1,unlock_all:1
 #!arguments-desc=配置 XP Boost、倍数和课程解锁
 #!author=Takagivegeta
 #!homepage=https://github.com/TAKAGIVEGETA/MyScripts/tree/main/lingoDuo
