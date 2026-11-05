@@ -4,7 +4,7 @@
 #!arguments-desc=配置 XP Boost、倍数和课程解锁
 #!author=Takagivegeta
 #!homepage=https://github.com/TAKAGIVEGETA/MyScripts/tree/main/lingoDuo
-#!icon=https://github.com/TAKAGIVEGETA/MyScripts/blob/main/lingoDuo/lingoDuo.png?raw=true
+#!icon=https://raw.githubusercontent.com/TAKAGIVEGETA/MyScripts/main/lingoDuo/lingoDuo.png
 
 [Script]
 duolingo_max = type=http-response,pattern=^https?:\/\/(ios-api-[a-z0-9-]+|api\d+)\.duolingo\.c(n|om)\/2023-05-23\/(batch|users\/[^\/?#]+)(?:[?#]|$),script-path=https://raw.githubusercontent.com/mpc2008cn/surge-list/master/lingoDuo/lingoDuo-xaM-enhanced.js,argument=xp_boost={{{xp_boost}}}&multiplier={{{multiplier}}}&unlock_all={{{unlock_all}}},requires-body=1,max-size=31457280,timeout=120
