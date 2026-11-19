@@ -16,6 +16,7 @@ DOMAIN,fpinit.itunes.apple.com
 DOMAIN-SUFFIX,23img.com
 DOMAIN-SUFFIX,t66y.com
 DOMAIN,static.redircdn.com
+DOMAIN-SUFFIX,imgly.net
 
 DOMAIN,github.githubassets.com
 DOMAIN-SUFFIX,challenges.cloudflare.com
